@@ -15,3 +15,10 @@ android.ndk = 25b
 android.archs = arm64-v8a
 android.allow_backup = True
 android.accept_sdk_license = True
+android.skip_update = True
+p4a.bootstrap = sdl2
+p4a.extra_args = --no-report
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
